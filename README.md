@@ -5,7 +5,7 @@ Set of standards for a react/react native app. Folder structures, lint configs a
 ### Sections
 
 [Project initialization](INITIALIZATION.md)
-Setting up initial directories
+[Setting up initial directories](INITIAL_DIRECTORIES.md)
 Setting up linting packages and settings
 Setting up VSCode
 Screen/Component Structure
