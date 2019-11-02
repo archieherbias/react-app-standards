@@ -21,7 +21,7 @@ And add this content to the settings file.
   "prettier.singleQuote": false,
   "prettier.bracketSpacing": true,
   "prettier.trailingComma": "all",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": true
 }
 ```
 

@@ -5,5 +5,6 @@
   "git.ignoreLimitWarning": true,
   "prettier.singleQuote": false,
   "prettier.bracketSpacing": true,
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "editor.formatOnSave": true
 }
