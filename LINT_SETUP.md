@@ -78,6 +78,10 @@ Here are recommended list for dev dependencies following react native community 
 "react-test-renderer"
 ```
 
+```bash
+yarn add @babel/core @babel/runtime @react-native-community/eslint-config babel-jest eslint eslint-config-prettier eslint-plugin-prettier jest metro-react-native-babel-preset react-test-renderer -D
+```
+
 Add an .eslintrc.json in your project and copy this content:
 
 ```bash
@@ -131,6 +135,10 @@ Here are recommended list for dev dependencies following airbnb lint standard co
 "eslint-plugin-react"
 "eslint-plugin-react-hooks"
 "prettier"
+```
+
+```bash
+yarn add @babel/core babel-eslint babel-preset-expo eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier -D
 ```
 
 Add an .eslintrc.json in your project and copy this content:
