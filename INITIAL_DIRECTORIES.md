@@ -34,6 +34,45 @@ yarn.lock
 ---- storage.services.js
 ```
 
+### Initial Files and Directories for a react native app
+
+```bash
+.buckconfig
+.eslintrc.json
+.flowconfig
+.gitignore
+.watchmanconfig
+App.js
+app.json
+babel.config.js
+index.js
+metro.config.js
+package.json
+yarn.lock
+__tests__
+- android
+- ios
+- app
+-- assets
+---- images
+---- fonts
+-- components
+---- index.js
+-- constants
+-- redux
+---- modules
+------ index.js
+---- store.js
+-- routes
+---- routes.js
+-- screens
+---- index.js
+-- services
+---- api
+---- data.services.js
+---- storage.services.js
+```
+
 ### Initial Files and Directories for an expo app
 
 ```bash
