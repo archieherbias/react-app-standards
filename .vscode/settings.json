@@ -1,6 +1,7 @@
 {
   "eslint.workingDirectories": [
-    { "directory": "./react-app-sample", "changeProcessCWD": true }
+    { "directory": "./react-app-sample", "changeProcessCWD": true },
+    { "directory": "./reactNativeCliSample", "changeProcessCWD": true }
   ],
   "git.ignoreLimitWarning": true,
   "prettier.singleQuote": false,

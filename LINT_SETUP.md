@@ -91,9 +91,10 @@ Add an .eslintrc.json in your project and copy this content:
   "parser": "babel-eslint",
   "rules": {
     "no-underscore-dangle": [2, { "allowAfterThis": true }],
+    "no-unused-vars": ["error"],
     "prettier/prettier": [
       "error",
-      { "singleQuote": true, "trailingComma": "all" }
+      { "singleQuote": false, "trailingComma": "all" }
     ],
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],

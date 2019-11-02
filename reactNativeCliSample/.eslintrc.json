@@ -1,0 +1,27 @@
+{
+  "extends": ["@react-native-community", "prettier"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-underscore-dangle": [2, { "allowAfterThis": true }],
+    "no-unused-vars": ["error"],
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": false, "trailingComma": "all" }
+    ],
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/state-in-constructor": "off"
+  },
+  "globals": {
+    "fetch": false
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "app"]
+      }
+    },
+    "import/core-modules": []
+  }
+}
