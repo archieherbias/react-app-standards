@@ -1,5 +1,11 @@
 # Setting up VSCode for linting and prettier auto formatting
 
+Install some VSCode tools:
+
+- ESLint
+- Prettier - Code formatter
+- GitLens (optional)
+
 This is common for all types of projects and linting setup:
 
 First at the root directory of your project, add a `.vscode` folder and inside it add a `settings.json` file.
@@ -15,7 +21,8 @@ And add this content to the settings file.
   "prettier.singleQuote": false,
   "prettier.bracketSpacing": true,
   "prettier.jsxBracketSameLine": true,
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "prettier.formatOnSave": true
 }
 ```
 
