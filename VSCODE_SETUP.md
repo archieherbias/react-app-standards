@@ -20,9 +20,8 @@ And add this content to the settings file.
   "git.ignoreLimitWarning": true,
   "prettier.singleQuote": false,
   "prettier.bracketSpacing": true,
-  "prettier.jsxBracketSameLine": true,
   "prettier.trailingComma": "all",
-  "prettier.formatOnSave": true
+  "editor.formatOnSave": false
 }
 ```
 

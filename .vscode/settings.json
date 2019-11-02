@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": [
+    { "directory": "./react-app-sample", "changeProcessCWD": true }
+  ],
+  "git.ignoreLimitWarning": true,
+  "prettier.singleQuote": false,
+  "prettier.bracketSpacing": true,
+  "prettier.trailingComma": "all"
+}

@@ -7,6 +7,7 @@
 Here are recommended list for dev dependencies following airbnb lint standard configs:
 
 ```bash
+"babel-eslint"
 "eslint"
 "eslint-config-airbnb"
 "eslint-config-prettier"
@@ -17,6 +18,10 @@ Here are recommended list for dev dependencies following airbnb lint standard co
 "eslint-plugin-react"
 "eslint-plugin-react-hooks"
 "prettier"
+```
+
+```bash
+yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier -D
 ```
 
 Add an .eslintrc.json in your project and copy this content:
