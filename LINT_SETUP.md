@@ -1,4 +1,16 @@
-# Setup and configure eslint
+# Setup and configure eslint/prettier
+
+### Add project prettier config
+
+Create file `.prettierrc` inside your project and copy this initial configuration:
+
+```bash
+{
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "trailingComma": "all"
+}
+```
 
 ### Lint setup for React Web App
 
